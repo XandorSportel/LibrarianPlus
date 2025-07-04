@@ -1,0 +1,9 @@
+name: LibrarianPlus
+version: '0.1.0.0-dev.b1'
+main: org.milanhdev.librarianPlus.LibrarianPlus
+api-version: '1.21'
+commands:
+  librarianmenu:
+    description:
+      description: Open librarian enchantment selector
+      usage: /<command>
