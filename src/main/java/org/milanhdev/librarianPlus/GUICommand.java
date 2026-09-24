@@ -66,7 +66,8 @@ public class GUICommand implements CommandExecutor {
             Map.entry(Enchantment.QUICK_CHARGE, new EnchantInfo("Quick Charge", 3)),
             Map.entry(Enchantment.RIPTIDE, new EnchantInfo("Riptide", 3)),
             Map.entry(Enchantment.BREACH, new EnchantInfo("Breach", 4)),
-            Map.entry(Enchantment.DENSITY, new EnchantInfo("Density", 5))
+            Map.entry(Enchantment.DENSITY, new EnchantInfo("Density", 5)),
+            Map.entry(Enchantment.LUNGE, new EnchantInfo("Lunge", 3))
     );
 
     private final List<Enchantment> enchantmentsList = List.of(
@@ -79,7 +80,8 @@ public class GUICommand implements CommandExecutor {
             Enchantment.SHARPNESS, Enchantment.SMITE, Enchantment.SWEEPING_EDGE,
             Enchantment.CHANNELING, Enchantment.FLAME, Enchantment.IMPALING, Enchantment.INFINITY,
             Enchantment.LOYALTY, Enchantment.MULTISHOT, Enchantment.PIERCING, Enchantment.POWER,
-            Enchantment.PUNCH, Enchantment.QUICK_CHARGE, Enchantment.RIPTIDE, Enchantment.BREACH, Enchantment.DENSITY
+            Enchantment.PUNCH, Enchantment.QUICK_CHARGE, Enchantment.RIPTIDE, Enchantment.BREACH,
+            Enchantment.DENSITY, Enchantment.LUNGE
     );
 
     public Map<Enchantment, EnchantInfo> getEnchantmentInfoMap() {

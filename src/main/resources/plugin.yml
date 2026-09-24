@@ -7,3 +7,4 @@ commands:
     description:
       description: Open librarian enchantment selector
       usage: /<command>
+      aliases: [librarian, librarianplus, lm]
