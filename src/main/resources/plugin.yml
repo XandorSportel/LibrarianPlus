@@ -1,7 +1,7 @@
 name: LibrarianPlus
-version: '0.1.0.0-dev.b1'
+version: '${project.version}'
 main: org.milanhdev.librarianPlus.LibrarianPlus
-api-version: '1.21'
+api-version: '26.3'
 commands:
   librarianmenu:
     description:
