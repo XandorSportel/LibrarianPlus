@@ -99,7 +99,7 @@ public class VillagerTrade implements Listener {
             }
         }
 
-        p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_HAT, 0.4f, 1.0f);
+        villager.getWorld().playSound(villager.getLocation(), Sound.BLOCK_NOTE_BLOCK_HAT, 0.4f, 1.0f);
     }
 
     private String formatEnchantmentName(Enchantment enchantment) {

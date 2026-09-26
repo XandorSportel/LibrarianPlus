@@ -4,7 +4,6 @@ main: org.milanhdev.librarianPlus.LibrarianPlus
 api-version: '26.3'
 commands:
   librarianmenu:
-    description:
-      description: Open librarian enchantment selector
-      usage: /<command>
-      aliases: [librarian, librarianplus, lm]
+    description: Open librarian enchantment selector
+    usage: /<command>
+    aliases: [librarian, librarianplus, lm]
